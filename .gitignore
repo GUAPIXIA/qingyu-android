@@ -1,61 +1,16 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Gradle
+.gradle/
+build/
+local.properties
 
-node_modules
-dist
-dist-ssr
-*.local
+# IDE
+.idea/
+*.iml
+captures/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Kotlin
+.kotlin/
 
-# Electron build output
-dist-electron
-release
-release-v2
-.cache
-
-# PoC 临时验证脚本
-.poc-tmp-src/
-
-# SillyTavern tools
-SillyTavern-Launcher/
-
-# Build artifacts / temp
-.workbuddy/
-*_spec_*.json
-spec_*.json
-.trae/
-.reasonix/
-
-# Environment files (contain secrets)
-.env
-# 测试覆盖率报告
-coverage/
-
-# 审查临时产物
-lint*.json
-
-# AI 工具目录（本地工具数据，不入库）
-.qoder/
-.codebuddy/
-
-# 安卓伴侣端（独立仓库，不在桌面端仓库中追踪）
-android/
-
-# 公告服务端（独立仓库，不在桌面端仓库中追踪）
-server/
+# 签名与密钥（令牌/配对相关，禁止入库）
+*.keystore
+*.jks
